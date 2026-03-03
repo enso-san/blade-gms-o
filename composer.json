@@ -1,0 +1,34 @@
+{
+    "name": "enso-san/blade-gms-o",
+    "description": "A package to easily make use of Googles Material Design Symbols (Outlined) in your Laravel Blade views.",
+    "keywords": ["Blade", "Google", "Laravel", "Material", "Symbols"],
+    "homepage": "https://github.com/enso-san/blade-gms-o",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Hoffmann"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "blade-ui-kit/blade-icons": "^1.9",
+        "illuminate/support": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EnsoSan\\GMS_o\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EnsoSan\\GMS_o\\GMS_oServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
