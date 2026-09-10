@@ -28,6 +28,7 @@ enum GMS_o: string
     case _24FPS_SELECT = 'GMS_o-24fps_select';
     case _24MP = 'GMS_o-24mp';
     case _2D = 'GMS_o-2d';
+    case _2D_2 = 'GMS_o-2d_2';
     case _2K = 'GMS_o-2k';
     case _2K_PLUS = 'GMS_o-2k_plus';
     case _2MP = 'GMS_o-2mp';
@@ -35,6 +36,7 @@ enum GMS_o: string
     case _30FPS_SELECT = 'GMS_o-30fps_select';
     case _360 = 'GMS_o-360';
     case _3D = 'GMS_o-3d';
+    case _3D_2 = 'GMS_o-3d_2';
     case _3D_ROTATION = 'GMS_o-3d_rotation';
     case _3G_MOBILEDATA = 'GMS_o-3g_mobiledata';
     case _3G_MOBILEDATA_BADGE = 'GMS_o-3g_mobiledata_badge';
@@ -247,6 +249,7 @@ enum GMS_o: string
     case APP_PROMO = 'GMS_o-app_promo';
     case APP_REGISTRATION = 'GMS_o-app_registration';
     case APP_SHORTCUT = 'GMS_o-app_shortcut';
+    case APP_SPARK = 'GMS_o-app_spark';
     case APPAREL = 'GMS_o-apparel';
     case APPROVAL = 'GMS_o-approval';
     case APPROVAL_DELEGATION = 'GMS_o-approval_delegation';
@@ -341,6 +344,7 @@ enum GMS_o: string
     case ATTACHMENT = 'GMS_o-attachment';
     case ATTRACTIONS = 'GMS_o-attractions';
     case ATTRIBUTION = 'GMS_o-attribution';
+    case AUDIO_CAPTURE = 'GMS_o-audio_capture';
     case AUDIO_DESCRIPTION = 'GMS_o-audio_description';
     case AUDIO_FILE = 'GMS_o-audio_file';
     case AUDIO_VIDEO_RECEIVER = 'GMS_o-audio_video_receiver';
@@ -465,12 +469,18 @@ enum GMS_o: string
     case BATTERY_ANDROID_SHIELD = 'GMS_o-battery_android_shield';
     case BATTERY_CHANGE = 'GMS_o-battery_change';
     case BATTERY_CHARGING_20 = 'GMS_o-battery_charging_20';
+    case BATTERY_CHARGING_20_2 = 'GMS_o-battery_charging_20_2';
     case BATTERY_CHARGING_30 = 'GMS_o-battery_charging_30';
+    case BATTERY_CHARGING_30_2 = 'GMS_o-battery_charging_30_2';
     case BATTERY_CHARGING_50 = 'GMS_o-battery_charging_50';
+    case BATTERY_CHARGING_50_2 = 'GMS_o-battery_charging_50_2';
     case BATTERY_CHARGING_60 = 'GMS_o-battery_charging_60';
+    case BATTERY_CHARGING_60_2 = 'GMS_o-battery_charging_60_2';
     case BATTERY_CHARGING_80 = 'GMS_o-battery_charging_80';
+    case BATTERY_CHARGING_80_2 = 'GMS_o-battery_charging_80_2';
     case BATTERY_CHARGING_90 = 'GMS_o-battery_charging_90';
     case BATTERY_CHARGING_FULL = 'GMS_o-battery_charging_full';
+    case BATTERY_CHARGING_FULL_2 = 'GMS_o-battery_charging_full_2';
     case BATTERY_ERROR = 'GMS_o-battery_error';
     case BATTERY_FULL = 'GMS_o-battery_full';
     case BATTERY_FULL_ALT = 'GMS_o-battery_full_alt';
@@ -506,10 +516,13 @@ enum GMS_o: string
     case BIKE_LANE = 'GMS_o-bike_lane';
     case BIKE_SCOOTER = 'GMS_o-bike_scooter';
     case BIOTECH = 'GMS_o-biotech';
+    case BITBUCKET = 'GMS_o-bitbucket';
     case BLANKET = 'GMS_o-blanket';
     case BLENDER = 'GMS_o-blender';
     case BLIND = 'GMS_o-blind';
     case BLINDS = 'GMS_o-blinds';
+    case BLINDS_2 = 'GMS_o-blinds_2';
+    case BLINDS_2_CLOSED = 'GMS_o-blinds_2_closed';
     case BLINDS_CLOSED = 'GMS_o-blinds_closed';
     case BLOCK = 'GMS_o-block';
     case BLOOD_PRESSURE = 'GMS_o-blood_pressure';
@@ -530,6 +543,7 @@ enum GMS_o: string
     case BODY_FAT = 'GMS_o-body_fat';
     case BODY_SYSTEM = 'GMS_o-body_system';
     case BOLT = 'GMS_o-bolt';
+    case BOLT_BOOST = 'GMS_o-bolt_boost';
     case BOMB = 'GMS_o-bomb';
     case BOOK = 'GMS_o-book';
     case BOOK_2 = 'GMS_o-book_2';
@@ -616,10 +630,12 @@ enum GMS_o: string
     case BUG_REPORT = 'GMS_o-bug_report';
     case BUILD = 'GMS_o-build';
     case BUILD_CIRCLE = 'GMS_o-build_circle';
+    case BULLET_CHART = 'GMS_o-bullet_chart';
     case BUNGALOW = 'GMS_o-bungalow';
     case BURST_MODE = 'GMS_o-burst_mode';
     case BUS_ALERT = 'GMS_o-bus_alert';
     case BUS_MAP_PIN = 'GMS_o-bus_map_pin';
+    case BUS_MAP_PIN_2 = 'GMS_o-bus_map_pin_2';
     case BUS_RAILWAY = 'GMS_o-bus_railway';
     case BUSINESS_CENTER = 'GMS_o-business_center';
     case BUSINESS_CHIP = 'GMS_o-business_chip';
@@ -691,11 +707,14 @@ enum GMS_o: string
     case CAR_FAN_MID_LOW_RIGHT = 'GMS_o-car_fan_mid_low_right';
     case CAR_FAN_MID_RIGHT = 'GMS_o-car_fan_mid_right';
     case CAR_FAN_RECIRCULATE = 'GMS_o-car_fan_recirculate';
+    case CAR_FAN_RECIRCULATE_2 = 'GMS_o-car_fan_recirculate_2';
     case CAR_GEAR = 'GMS_o-car_gear';
     case CAR_LOCK = 'GMS_o-car_lock';
     case CAR_MIRROR_HEAT = 'GMS_o-car_mirror_heat';
     case CAR_RENTAL = 'GMS_o-car_rental';
     case CAR_REPAIR = 'GMS_o-car_repair';
+    case CAR_SEAT_OFF = 'GMS_o-car_seat_off';
+    case CAR_SPARK = 'GMS_o-car_spark';
     case CAR_TAG = 'GMS_o-car_tag';
     case CARD_MEMBERSHIP = 'GMS_o-card_membership';
     case CARD_TRAVEL = 'GMS_o-card_travel';
@@ -747,6 +766,7 @@ enum GMS_o: string
     case CHAT_PASTE_GO = 'GMS_o-chat_paste_go';
     case CHAT_PASTE_GO_2 = 'GMS_o-chat_paste_go_2';
     case CHECK = 'GMS_o-check';
+    case CHECK_ALERT = 'GMS_o-check_alert';
     case CHECK_BOX = 'GMS_o-check_box';
     case CHECK_BOX_OUTLINE_BLANK = 'GMS_o-check_box_outline_blank';
     case CHECK_CIRCLE = 'GMS_o-check_circle';
@@ -839,6 +859,7 @@ enum GMS_o: string
     case CODE = 'GMS_o-code';
     case CODE_BLOCKS = 'GMS_o-code_blocks';
     case CODE_OFF = 'GMS_o-code_off';
+    case CODE_XML = 'GMS_o-code_xml';
     case COFFEE = 'GMS_o-coffee';
     case COFFEE_MAKER = 'GMS_o-coffee_maker';
     case COGNITION = 'GMS_o-cognition';
@@ -934,11 +955,14 @@ enum GMS_o: string
     case CREDIT_CARD_GEAR = 'GMS_o-credit_card_gear';
     case CREDIT_CARD_HEART = 'GMS_o-credit_card_heart';
     case CREDIT_CARD_OFF = 'GMS_o-credit_card_off';
+    case CREDIT_CARD_SPARK = 'GMS_o-credit_card_spark';
     case CREDIT_SCORE = 'GMS_o-credit_score';
     case CRIB = 'GMS_o-crib';
     case CRISIS_ALERT = 'GMS_o-crisis_alert';
     case CROP = 'GMS_o-crop';
     case CROP_16_9 = 'GMS_o-crop_16_9';
+    case CROP_21_9 = 'GMS_o-crop_21_9';
+    case CROP_2_3 = 'GMS_o-crop_2_3';
     case CROP_3_2 = 'GMS_o-crop_3_2';
     case CROP_5_4 = 'GMS_o-crop_5_4';
     case CROP_7_5 = 'GMS_o-crop_7_5';
@@ -974,6 +998,7 @@ enum GMS_o: string
     case DARK_MODE = 'GMS_o-dark_mode';
     case DASHBOARD = 'GMS_o-dashboard';
     case DASHBOARD_2 = 'GMS_o-dashboard_2';
+    case DASHBOARD_2_ADD = 'GMS_o-dashboard_2_add';
     case DASHBOARD_2_EDIT = 'GMS_o-dashboard_2_edit';
     case DASHBOARD_2_GEAR = 'GMS_o-dashboard_2_gear';
     case DASHBOARD_CUSTOMIZE = 'GMS_o-dashboard_customize';
@@ -1097,6 +1122,7 @@ enum GMS_o: string
     case DISCOVER_TUNE = 'GMS_o-discover_tune';
     case DISHWASHER = 'GMS_o-dishwasher';
     case DISHWASHER_GEN = 'GMS_o-dishwasher_gen';
+    case DISPLAY_ADD = 'GMS_o-display_add';
     case DISPLAY_EXTERNAL_INPUT = 'GMS_o-display_external_input';
     case DISPLAY_SETTINGS = 'GMS_o-display_settings';
     case DISTANCE = 'GMS_o-distance';
@@ -1122,6 +1148,7 @@ enum GMS_o: string
     case DOMAIN = 'GMS_o-domain';
     case DOMAIN_ADD = 'GMS_o-domain_add';
     case DOMAIN_DISABLED = 'GMS_o-domain_disabled';
+    case DOMAIN_DISABLED_CHECK = 'GMS_o-domain_disabled_check';
     case DOMAIN_VERIFICATION = 'GMS_o-domain_verification';
     case DOMAIN_VERIFICATION_OFF = 'GMS_o-domain_verification_off';
     case DOMINO_MASK = 'GMS_o-domino_mask';
@@ -1160,11 +1187,14 @@ enum GMS_o: string
     case DRIVE_FILE_MOVE = 'GMS_o-drive_file_move';
     case DRIVE_FILE_MOVE_OUTLINE = 'GMS_o-drive_file_move_outline';
     case DRIVE_FILE_MOVE_RTL = 'GMS_o-drive_file_move_rtl';
+    case DRIVE_FILE_RENAME = 'GMS_o-drive_file_rename';
     case DRIVE_FILE_RENAME_OUTLINE = 'GMS_o-drive_file_rename_outline';
     case DRIVE_FOLDER_UPLOAD = 'GMS_o-drive_folder_upload';
+    case DRIVE_FUSIONTABLE = 'GMS_o-drive_fusiontable';
     case DRONE = 'GMS_o-drone';
     case DRONE_2 = 'GMS_o-drone_2';
     case DROPDOWN = 'GMS_o-dropdown';
+    case DROPDOWN_MENU = 'GMS_o-dropdown_menu';
     case DROPPER_EYE = 'GMS_o-dropper_eye';
     case DRY = 'GMS_o-dry';
     case DRY_CLEANING = 'GMS_o-dry_cleaning';
@@ -1317,6 +1347,7 @@ enum GMS_o: string
     case EYEGLASSES = 'GMS_o-eyeglasses';
     case EYEGLASSES_2 = 'GMS_o-eyeglasses_2';
     case EYEGLASSES_2_SOUND = 'GMS_o-eyeglasses_2_sound';
+    case EYEGLASSES_3 = 'GMS_o-eyeglasses_3';
     case FACE = 'GMS_o-face';
     case FACE_2 = 'GMS_o-face_2';
     case FACE_3 = 'GMS_o-face_3';
@@ -1416,6 +1447,7 @@ enum GMS_o: string
     case FIND_REPLACE = 'GMS_o-find_replace';
     case FINGERPRINT = 'GMS_o-fingerprint';
     case FINGERPRINT_OFF = 'GMS_o-fingerprint_off';
+    case FIRE_CHECK = 'GMS_o-fire_check';
     case FIRE_EXTINGUISHER = 'GMS_o-fire_extinguisher';
     case FIRE_HYDRANT = 'GMS_o-fire_hydrant';
     case FIRE_TRUCK = 'GMS_o-fire_truck';
@@ -1448,6 +1480,7 @@ enum GMS_o: string
     case FLIGHT = 'GMS_o-flight';
     case FLIGHT_CLASS = 'GMS_o-flight_class';
     case FLIGHT_LAND = 'GMS_o-flight_land';
+    case FLIGHT_SPARK = 'GMS_o-flight_spark';
     case FLIGHT_TAKEOFF = 'GMS_o-flight_takeoff';
     case FLIGHTS_AND_HOTELS = 'GMS_o-flights_and_hotels';
     case FLIGHTSMODE = 'GMS_o-flightsmode';
@@ -1502,6 +1535,7 @@ enum GMS_o: string
     case FOOTPRINT = 'GMS_o-footprint';
     case FOR_YOU = 'GMS_o-for_you';
     case FOREST = 'GMS_o-forest';
+    case FORK_CHART = 'GMS_o-fork_chart';
     case FORK_LEFT = 'GMS_o-fork_left';
     case FORK_RIGHT = 'GMS_o-fork_right';
     case FORK_SPOON = 'GMS_o-fork_spoon';
@@ -1581,6 +1615,7 @@ enum GMS_o: string
     case FRAME_PERSON_OFF = 'GMS_o-frame_person_off';
     case FRAME_RELOAD = 'GMS_o-frame_reload';
     case FRAME_SOURCE = 'GMS_o-frame_source';
+    case FRAME_SPARK = 'GMS_o-frame_spark';
     case FREE_CANCELLATION = 'GMS_o-free_cancellation';
     case FRONT_HAND = 'GMS_o-front_hand';
     case FRONT_LOADER = 'GMS_o-front_loader';
@@ -1625,6 +1660,7 @@ enum GMS_o: string
     case GARAGE = 'GMS_o-garage';
     case GARAGE_CHECK = 'GMS_o-garage_check';
     case GARAGE_DOOR = 'GMS_o-garage_door';
+    case GARAGE_DOOR_OPEN = 'GMS_o-garage_door_open';
     case GARAGE_HOME = 'GMS_o-garage_home';
     case GARAGE_MONEY = 'GMS_o-garage_money';
     case GARDEN_CART = 'GMS_o-garden_cart';
@@ -1643,12 +1679,14 @@ enum GMS_o: string
     case GIF_BOX = 'GMS_o-gif_box';
     case GIRL = 'GMS_o-girl';
     case GITE = 'GMS_o-gite';
+    case GITLAB = 'GMS_o-gitlab';
     case GLASS_CUP = 'GMS_o-glass_cup';
     case GLOBE = 'GMS_o-globe';
     case GLOBE_2_CANCEL = 'GMS_o-globe_2_cancel';
     case GLOBE_2_QUESTION = 'GMS_o-globe_2_question';
     case GLOBE_ASIA = 'GMS_o-globe_asia';
     case GLOBE_BOOK = 'GMS_o-globe_book';
+    case GLOBE_CLOCK = 'GMS_o-globe_clock';
     case GLOBE_LOCATION_PIN = 'GMS_o-globe_location_pin';
     case GLOBE_UK = 'GMS_o-globe_uk';
     case GLUCOSE = 'GMS_o-glucose';
@@ -1682,6 +1720,7 @@ enum GMS_o: string
     case GRID_4X4 = 'GMS_o-grid_4x4';
     case GRID_GOLDENRATIO = 'GMS_o-grid_goldenratio';
     case GRID_GUIDES = 'GMS_o-grid_guides';
+    case GRID_LAYOUT_SIDE = 'GMS_o-grid_layout_side';
     case GRID_OFF = 'GMS_o-grid_off';
     case GRID_ON = 'GMS_o-grid_on';
     case GRID_VIEW = 'GMS_o-grid_view';
@@ -1774,6 +1813,7 @@ enum GMS_o: string
     case HIGH_CHAIR = 'GMS_o-high_chair';
     case HIGH_DENSITY = 'GMS_o-high_density';
     case HIGH_QUALITY = 'GMS_o-high_quality';
+    case HIGH_QUALITY_OFF = 'GMS_o-high_quality_off';
     case HIGH_RES = 'GMS_o-high_res';
     case HIGHLIGHT = 'GMS_o-highlight';
     case HIGHLIGHT_KEYBOARD_FOCUS = 'GMS_o-highlight_keyboard_focus';
@@ -1807,6 +1847,7 @@ enum GMS_o: string
     case HOME_REPAIR_SERVICE = 'GMS_o-home_repair_service';
     case HOME_SPEAKER = 'GMS_o-home_speaker';
     case HOME_STORAGE = 'GMS_o-home_storage';
+    case HOME_STORAGE_GEAR = 'GMS_o-home_storage_gear';
     case HOME_WORK = 'GMS_o-home_work';
     case HORIZONTAL_ALIGN_CENTER = 'GMS_o-horizontal_align_center';
     case HORIZONTAL_ALIGN_LEFT = 'GMS_o-horizontal_align_left';
@@ -1853,6 +1894,7 @@ enum GMS_o: string
     case ICE_SKATING = 'GMS_o-ice_skating';
     case ICECREAM = 'GMS_o-icecream';
     case ID_CARD = 'GMS_o-id_card';
+    case ID_CARD_2 = 'GMS_o-id_card_2';
     case IDENTITY_AWARE_PROXY = 'GMS_o-identity_aware_proxy';
     case IDENTITY_PLATFORM = 'GMS_o-identity_platform';
     case IFL = 'GMS_o-ifl';
@@ -1887,6 +1929,7 @@ enum GMS_o: string
     case INK_ERASER_OFF = 'GMS_o-ink_eraser_off';
     case INK_HIGHLIGHTER = 'GMS_o-ink_highlighter';
     case INK_HIGHLIGHTER_MOVE = 'GMS_o-ink_highlighter_move';
+    case INK_HIGHLIGHTER_OFF = 'GMS_o-ink_highlighter_off';
     case INK_MARKER = 'GMS_o-ink_marker';
     case INK_PEN = 'GMS_o-ink_pen';
     case INK_SELECTION = 'GMS_o-ink_selection';
@@ -1915,6 +1958,7 @@ enum GMS_o: string
     case JAPANESE_CURRY = 'GMS_o-japanese_curry';
     case JAPANESE_FLAG = 'GMS_o-japanese_flag';
     case JAVASCRIPT = 'GMS_o-javascript';
+    case JEWELRY = 'GMS_o-jewelry';
     case JOIN = 'GMS_o-join';
     case JOIN_FULL = 'GMS_o-join_full';
     case JOIN_INNER = 'GMS_o-join_inner';
@@ -2026,12 +2070,15 @@ enum GMS_o: string
     case LIFT_TO_TALK = 'GMS_o-lift_to_talk';
     case LIGHT = 'GMS_o-light';
     case LIGHT_GROUP = 'GMS_o-light_group';
+    case LIGHT_GROUP_2 = 'GMS_o-light_group_2';
     case LIGHT_MODE = 'GMS_o-light_mode';
+    case LIGHT_MODE_AUTO = 'GMS_o-light_mode_auto';
     case LIGHT_OFF = 'GMS_o-light_off';
     case LIGHTBULB = 'GMS_o-lightbulb';
     case LIGHTBULB_2 = 'GMS_o-lightbulb_2';
     case LIGHTBULB_CIRCLE = 'GMS_o-lightbulb_circle';
     case LIGHTNING_STAND = 'GMS_o-lightning_stand';
+    case LIGHTSTRIP = 'GMS_o-lightstrip';
     case LINE_AXIS = 'GMS_o-line_axis';
     case LINE_CURVE = 'GMS_o-line_curve';
     case LINE_END = 'GMS_o-line_end';
@@ -2057,9 +2104,11 @@ enum GMS_o: string
     case LIPS = 'GMS_o-lips';
     case LIQUOR = 'GMS_o-liquor';
     case LIST = 'GMS_o-list';
+    case LIST_2 = 'GMS_o-list_2';
     case LIST_ALT = 'GMS_o-list_alt';
     case LIST_ALT_ADD = 'GMS_o-list_alt_add';
     case LIST_ALT_CHECK = 'GMS_o-list_alt_check';
+    case LIST_ARROW = 'GMS_o-list_arrow';
     case LISTS = 'GMS_o-lists';
     case LIVE_HELP = 'GMS_o-live_help';
     case LIVE_TV = 'GMS_o-live_tv';
@@ -2086,6 +2135,7 @@ enum GMS_o: string
     case LOCAL_POST_OFFICE = 'GMS_o-local_post_office';
     case LOCAL_SEE = 'GMS_o-local_see';
     case LOCAL_SHIPPING = 'GMS_o-local_shipping';
+    case LOCAL_SHIPPING_SPARK = 'GMS_o-local_shipping_spark';
     case LOCAL_TAXI = 'GMS_o-local_taxi';
     case LOCATION_AUTOMATION = 'GMS_o-location_automation';
     case LOCATION_AWAY = 'GMS_o-location_away';
@@ -2139,6 +2189,7 @@ enum GMS_o: string
     case MAIL_LOCK = 'GMS_o-mail_lock';
     case MAIL_OFF = 'GMS_o-mail_off';
     case MAIL_SHIELD = 'GMS_o-mail_shield';
+    case MAIL_SPARK = 'GMS_o-mail_spark';
     case MALE = 'GMS_o-male';
     case MAN = 'GMS_o-man';
     case MAN_2 = 'GMS_o-man_2';
@@ -2244,6 +2295,7 @@ enum GMS_o: string
     case MOBILE_CHAT = 'GMS_o-mobile_chat';
     case MOBILE_CHECK = 'GMS_o-mobile_check';
     case MOBILE_CODE = 'GMS_o-mobile_code';
+    case MOBILE_DOCK = 'GMS_o-mobile_dock';
     case MOBILE_DOTS = 'GMS_o-mobile_dots';
     case MOBILE_FRIENDLY = 'GMS_o-mobile_friendly';
     case MOBILE_GEAR = 'GMS_o-mobile_gear';
@@ -2355,6 +2407,7 @@ enum GMS_o: string
     case MOVED_LOCATION = 'GMS_o-moved_location';
     case MOVIE = 'GMS_o-movie';
     case MOVIE_EDIT = 'GMS_o-movie_edit';
+    case MOVIE_EDIT_OFF = 'GMS_o-movie_edit_off';
     case MOVIE_FILTER = 'GMS_o-movie_filter';
     case MOVIE_INFO = 'GMS_o-movie_info';
     case MOVIE_OFF = 'GMS_o-movie_off';
@@ -2620,6 +2673,7 @@ enum GMS_o: string
     case PARTY_MODE = 'GMS_o-party_mode';
     case PASSKEY = 'GMS_o-passkey';
     case PASSPORT = 'GMS_o-passport';
+    case PASSPORT_SPARK = 'GMS_o-passport_spark';
     case PASSWORD = 'GMS_o-password';
     case PASSWORD_2 = 'GMS_o-password_2';
     case PASSWORD_2_OFF = 'GMS_o-password_2_off';
@@ -2738,7 +2792,10 @@ enum GMS_o: string
     case PIN = 'GMS_o-pin';
     case PIN_DROP = 'GMS_o-pin_drop';
     case PIN_END = 'GMS_o-pin_end';
+    case PIN_HISTORY = 'GMS_o-pin_history';
     case PIN_INVOKE = 'GMS_o-pin_invoke';
+    case PIN_ROAD = 'GMS_o-pin_road';
+    case PIN_ROAD_2 = 'GMS_o-pin_road_2';
     case PINBOARD = 'GMS_o-pinboard';
     case PINBOARD_UNREAD = 'GMS_o-pinboard_unread';
     case PINCH = 'GMS_o-pinch';
@@ -2938,6 +2995,7 @@ enum GMS_o: string
     case REQUEST_PAGE = 'GMS_o-request_page';
     case REQUEST_QUOTE = 'GMS_o-request_quote';
     case RESET_BRIGHTNESS = 'GMS_o-reset_brightness';
+    case RESET_COLORS = 'GMS_o-reset_colors';
     case RESET_EXPOSURE = 'GMS_o-reset_exposure';
     case RESET_FOCUS = 'GMS_o-reset_focus';
     case RESET_IMAGE = 'GMS_o-reset_image';
@@ -3042,6 +3100,7 @@ enum GMS_o: string
     case SCREEN_ROTATION_UP = 'GMS_o-screen_rotation_up';
     case SCREEN_SEARCH_DESKTOP = 'GMS_o-screen_search_desktop';
     case SCREEN_SHARE = 'GMS_o-screen_share';
+    case SCREEN_SPARK_PAUSE = 'GMS_o-screen_spark_pause';
     case SCREENCAST = 'GMS_o-screencast';
     case SCREENSHOT = 'GMS_o-screenshot';
     case SCREENSHOT_FRAME = 'GMS_o-screenshot_frame';
@@ -3069,8 +3128,10 @@ enum GMS_o: string
     case SEAT_COOL_RIGHT = 'GMS_o-seat_cool_right';
     case SEAT_HEAT_LEFT = 'GMS_o-seat_heat_left';
     case SEAT_HEAT_RIGHT = 'GMS_o-seat_heat_right';
+    case SEAT_READ = 'GMS_o-seat_read';
     case SEAT_VENT_LEFT = 'GMS_o-seat_vent_left';
     case SEAT_VENT_RIGHT = 'GMS_o-seat_vent_right';
+    case SEAT_WINDOW = 'GMS_o-seat_window';
     case SECURITY = 'GMS_o-security';
     case SECURITY_KEY = 'GMS_o-security_key';
     case SECURITY_UPDATE_GOOD = 'GMS_o-security_update_good';
@@ -3086,6 +3147,7 @@ enum GMS_o: string
     case SELF_CARE = 'GMS_o-self_care';
     case SELF_IMPROVEMENT = 'GMS_o-self_improvement';
     case SELL = 'GMS_o-sell';
+    case SELL_CLOUD = 'GMS_o-sell_cloud';
     case SEND = 'GMS_o-send';
     case SEND_AND_ARCHIVE = 'GMS_o-send_and_archive';
     case SEND_MONEY = 'GMS_o-send_money';
@@ -3140,6 +3202,7 @@ enum GMS_o: string
     case SETTINGS_PHOTO_CAMERA = 'GMS_o-settings_photo_camera';
     case SETTINGS_POWER = 'GMS_o-settings_power';
     case SETTINGS_REMOTE = 'GMS_o-settings_remote';
+    case SETTINGS_SCREEN = 'GMS_o-settings_screen';
     case SETTINGS_SEATING = 'GMS_o-settings_seating';
     case SETTINGS_SLOW_MOTION = 'GMS_o-settings_slow_motion';
     case SETTINGS_SUGGEST = 'GMS_o-settings_suggest';
@@ -3149,6 +3212,8 @@ enum GMS_o: string
     case SETTINGS_VOICE = 'GMS_o-settings_voice';
     case SETTOP_COMPONENT = 'GMS_o-settop_component';
     case SEVERE_COLD = 'GMS_o-severe_cold';
+    case SHADES = 'GMS_o-shades';
+    case SHADES_CLOSED = 'GMS_o-shades_closed';
     case SHADOW = 'GMS_o-shadow';
     case SHADOW_ADD = 'GMS_o-shadow_add';
     case SHADOW_MINUS = 'GMS_o-shadow_minus';
@@ -3166,11 +3231,13 @@ enum GMS_o: string
     case SHELF_POSITION = 'GMS_o-shelf_position';
     case SHELVES = 'GMS_o-shelves';
     case SHIELD = 'GMS_o-shield';
+    case SHIELD_CARD = 'GMS_o-shield_card';
     case SHIELD_LOCK = 'GMS_o-shield_lock';
     case SHIELD_LOCKED = 'GMS_o-shield_locked';
     case SHIELD_MOON = 'GMS_o-shield_moon';
     case SHIELD_PERSON = 'GMS_o-shield_person';
     case SHIELD_QUESTION = 'GMS_o-shield_question';
+    case SHIELD_RADAR = 'GMS_o-shield_radar';
     case SHIELD_SPARK = 'GMS_o-shield_spark';
     case SHIELD_TOGGLE = 'GMS_o-shield_toggle';
     case SHIELD_WATCH = 'GMS_o-shield_watch';
@@ -3202,6 +3269,7 @@ enum GMS_o: string
     case SIDE_NAVIGATION = 'GMS_o-side_navigation';
     case SIGN_LANGUAGE = 'GMS_o-sign_language';
     case SIGN_LANGUAGE_2 = 'GMS_o-sign_language_2';
+    case SIGN_LANGUAGE_OFF = 'GMS_o-sign_language_off';
     case SIGNAL_CELLULAR_0_BAR = 'GMS_o-signal_cellular_0_bar';
     case SIGNAL_CELLULAR_1_BAR = 'GMS_o-signal_cellular_1_bar';
     case SIGNAL_CELLULAR_2_BAR = 'GMS_o-signal_cellular_2_bar';
@@ -3211,6 +3279,7 @@ enum GMS_o: string
     case SIGNAL_CELLULAR_ALT = 'GMS_o-signal_cellular_alt';
     case SIGNAL_CELLULAR_ALT_1_BAR = 'GMS_o-signal_cellular_alt_1_bar';
     case SIGNAL_CELLULAR_ALT_2_BAR = 'GMS_o-signal_cellular_alt_2_bar';
+    case SIGNAL_CELLULAR_ALT_OFF = 'GMS_o-signal_cellular_alt_off';
     case SIGNAL_CELLULAR_CONNECTED_NO_INTERNET_0_BAR = 'GMS_o-signal_cellular_connected_no_internet_0_bar';
     case SIGNAL_CELLULAR_CONNECTED_NO_INTERNET_4_BAR = 'GMS_o-signal_cellular_connected_no_internet_4_bar';
     case SIGNAL_CELLULAR_NODATA = 'GMS_o-signal_cellular_nodata';
@@ -3228,7 +3297,9 @@ enum GMS_o: string
     case SIGNPOST = 'GMS_o-signpost';
     case SIM_CARD = 'GMS_o-sim_card';
     case SIM_CARD_DOWNLOAD = 'GMS_o-sim_card_download';
+    case SIM_CARD_LOCK = 'GMS_o-sim_card_lock';
     case SIMULATION = 'GMS_o-simulation';
+    case SINGLE_ARROW = 'GMS_o-single_arrow';
     case SINGLE_BED = 'GMS_o-single_bed';
     case SIP = 'GMS_o-sip';
     case SIREN = 'GMS_o-siren';
@@ -3266,9 +3337,11 @@ enum GMS_o: string
     case SMOKING_ROOMS = 'GMS_o-smoking_rooms';
     case SMS = 'GMS_o-sms';
     case SMS_FAILED = 'GMS_o-sms_failed';
+    case SNAIL = 'GMS_o-snail';
     case SNIPPET_FOLDER = 'GMS_o-snippet_folder';
     case SNOOZE = 'GMS_o-snooze';
     case SNOWBOARDING = 'GMS_o-snowboarding';
+    case SNOWFLAKE = 'GMS_o-snowflake';
     case SNOWING = 'GMS_o-snowing';
     case SNOWING_HEAVY = 'GMS_o-snowing_heavy';
     case SNOWMOBILE = 'GMS_o-snowmobile';
@@ -3286,6 +3359,7 @@ enum GMS_o: string
     case SOUND_DETECTION_GLASS_BREAK = 'GMS_o-sound_detection_glass_break';
     case SOUND_DETECTION_LOUD_SOUND = 'GMS_o-sound_detection_loud_sound';
     case SOUND_SAMPLER = 'GMS_o-sound_sampler';
+    case SOUNDBAR = 'GMS_o-soundbar';
     case SOUP_KITCHEN = 'GMS_o-soup_kitchen';
     case SOURCE_ENVIRONMENT = 'GMS_o-source_environment';
     case SOURCE_NOTES = 'GMS_o-source_notes';
@@ -3296,11 +3370,13 @@ enum GMS_o: string
     case SPA = 'GMS_o-spa';
     case SPACE_BAR = 'GMS_o-space_bar';
     case SPACE_DASHBOARD = 'GMS_o-space_dashboard';
+    case SPACE_DASHBOARD_2 = 'GMS_o-space_dashboard_2';
     case SPATIAL_AUDIO = 'GMS_o-spatial_audio';
     case SPATIAL_AUDIO_OFF = 'GMS_o-spatial_audio_off';
     case SPATIAL_SPEAKER = 'GMS_o-spatial_speaker';
     case SPATIAL_TRACKING = 'GMS_o-spatial_tracking';
     case SPEAKER = 'GMS_o-speaker';
+    case SPEAKER_2 = 'GMS_o-speaker_2';
     case SPEAKER_GROUP = 'GMS_o-speaker_group';
     case SPEAKER_NOTES = 'GMS_o-speaker_notes';
     case SPEAKER_NOTES_OFF = 'GMS_o-speaker_notes_off';
@@ -3308,6 +3384,7 @@ enum GMS_o: string
     case SPECIAL_CHARACTER = 'GMS_o-special_character';
     case SPECIFIC_GRAVITY = 'GMS_o-specific_gravity';
     case SPEECH_TO_TEXT = 'GMS_o-speech_to_text';
+    case SPEECH_TO_TEXT_2 = 'GMS_o-speech_to_text_2';
     case SPEED = 'GMS_o-speed';
     case SPEED_0_25 = 'GMS_o-speed_0_25';
     case SPEED_0_2X = 'GMS_o-speed_0_2x';
@@ -3322,10 +3399,14 @@ enum GMS_o: string
     case SPEED_1_5X = 'GMS_o-speed_1_5x';
     case SPEED_1_75 = 'GMS_o-speed_1_75';
     case SPEED_1_7X = 'GMS_o-speed_1_7x';
+    case SPEED_2 = 'GMS_o-speed_2';
     case SPEED_2X = 'GMS_o-speed_2x';
+    case SPEED_3 = 'GMS_o-speed_3';
+    case SPEED_4 = 'GMS_o-speed_4';
     case SPEED_CAMERA = 'GMS_o-speed_camera';
     case SPELLCHECK = 'GMS_o-spellcheck';
     case SPLIT_SCENE = 'GMS_o-split_scene';
+    case SPLIT_SCENE_2 = 'GMS_o-split_scene_2';
     case SPLIT_SCENE_DOWN = 'GMS_o-split_scene_down';
     case SPLIT_SCENE_LEFT = 'GMS_o-split_scene_left';
     case SPLIT_SCENE_RIGHT = 'GMS_o-split_scene_right';
@@ -3405,6 +3486,7 @@ enum GMS_o: string
     case STAY_CURRENT_PORTRAIT = 'GMS_o-stay_current_portrait';
     case STAY_PRIMARY_LANDSCAPE = 'GMS_o-stay_primary_landscape';
     case STAY_PRIMARY_PORTRAIT = 'GMS_o-stay_primary_portrait';
+    case STEERING_WHEEL_COOL = 'GMS_o-steering_wheel_cool';
     case STEERING_WHEEL_HEAT = 'GMS_o-steering_wheel_heat';
     case STEP = 'GMS_o-step';
     case STEP_INTO = 'GMS_o-step_into';
@@ -3460,6 +3542,7 @@ enum GMS_o: string
     case SUBTITLES_OFF = 'GMS_o-subtitles_off';
     case SUBWAY = 'GMS_o-subway';
     case SUBWAY_WALK = 'GMS_o-subway_walk';
+    case SUBWOOFER = 'GMS_o-subwoofer';
     case SUMMARIZE = 'GMS_o-summarize';
     case SUNNY = 'GMS_o-sunny';
     case SUNNY_SNOWING = 'GMS_o-sunny_snowing';
@@ -3501,6 +3584,7 @@ enum GMS_o: string
     case SWITCH_ACCOUNT = 'GMS_o-switch_account';
     case SWITCH_CAMERA = 'GMS_o-switch_camera';
     case SWITCH_LEFT = 'GMS_o-switch_left';
+    case SWITCH_OFF = 'GMS_o-switch_off';
     case SWITCH_RIGHT = 'GMS_o-switch_right';
     case SWITCH_VIDEO = 'GMS_o-switch_video';
     case SWITCHES = 'GMS_o-switches';
@@ -3573,6 +3657,8 @@ enum GMS_o: string
     case TEMPLE_HINDU = 'GMS_o-temple_hindu';
     case TENANCY = 'GMS_o-tenancy';
     case TERMINAL = 'GMS_o-terminal';
+    case TERMINAL_2 = 'GMS_o-terminal_2';
+    case TERMINAL_ADD = 'GMS_o-terminal_add';
     case TEXT_AD = 'GMS_o-text_ad';
     case TEXT_AD_OFF = 'GMS_o-text_ad_off';
     case TEXT_COMPARE = 'GMS_o-text_compare';
@@ -3632,6 +3718,8 @@ enum GMS_o: string
     case TILE_LARGE = 'GMS_o-tile_large';
     case TILE_MEDIUM = 'GMS_o-tile_medium';
     case TILE_SMALL = 'GMS_o-tile_small';
+    case TILT_ARROW_DOWN = 'GMS_o-tilt_arrow_down';
+    case TILT_ARROW_UP = 'GMS_o-tilt_arrow_up';
     case TIME_AUTO = 'GMS_o-time_auto';
     case TIMELAPSE = 'GMS_o-timelapse';
     case TIMELINE = 'GMS_o-timeline';
@@ -3682,6 +3770,7 @@ enum GMS_o: string
     case TOTAL_DISSOLVED_SOLIDS = 'GMS_o-total_dissolved_solids';
     case TOUCH_APP = 'GMS_o-touch_app';
     case TOUCH_DOUBLE = 'GMS_o-touch_double';
+    case TOUCH_DOUBLE_2 = 'GMS_o-touch_double_2';
     case TOUCH_LONG = 'GMS_o-touch_long';
     case TOUCH_TRIPLE = 'GMS_o-touch_triple';
     case TOUCHPAD_MOUSE = 'GMS_o-touchpad_mouse';
@@ -3713,7 +3802,9 @@ enum GMS_o: string
     case TRANSITION_PUSH = 'GMS_o-transition_push';
     case TRANSITION_SLIDE = 'GMS_o-transition_slide';
     case TRANSLATE = 'GMS_o-translate';
+    case TRANSLATE_CC = 'GMS_o-translate_cc';
     case TRANSLATE_INDIC = 'GMS_o-translate_indic';
+    case TRANSLATE_SUBTITLES = 'GMS_o-translate_subtitles';
     case TRANSPORTATION = 'GMS_o-transportation';
     case TRAVEL = 'GMS_o-travel';
     case TRAVEL_EXPLORE = 'GMS_o-travel_explore';
@@ -3796,6 +3887,8 @@ enum GMS_o: string
     case USER_ATTRIBUTES = 'GMS_o-user_attributes';
     case VACCINES = 'GMS_o-vaccines';
     case VACUUM = 'GMS_o-vacuum';
+    case VACUUM_2 = 'GMS_o-vacuum_2';
+    case VACUUM_2_ON = 'GMS_o-vacuum_2_on';
     case VALVE = 'GMS_o-valve';
     case VAPE_FREE = 'GMS_o-vape_free';
     case VAPING_ROOMS = 'GMS_o-vaping_rooms';
@@ -3822,6 +3915,8 @@ enum GMS_o: string
     case VIDEO_CAMERA_FRONT_OFF = 'GMS_o-video_camera_front_off';
     case VIDEO_CHAT = 'GMS_o-video_chat';
     case VIDEO_FILE = 'GMS_o-video_file';
+    case VIDEO_FRAME_COPY = 'GMS_o-video_frame_copy';
+    case VIDEO_FRAME_SAVE = 'GMS_o-video_frame_save';
     case VIDEO_LABEL = 'GMS_o-video_label';
     case VIDEO_LIBRARY = 'GMS_o-video_library';
     case VIDEO_SEARCH = 'GMS_o-video_search';
@@ -3891,6 +3986,7 @@ enum GMS_o: string
     case VR180_CREATE2D = 'GMS_o-vr180_create2d';
     case VR180_CREATE2D_OFF = 'GMS_o-vr180_create2d_off';
     case VRPANO = 'GMS_o-vrpano';
+    case WALK_BIKE = 'GMS_o-walk_bike';
     case WALL_ART = 'GMS_o-wall_art';
     case WALL_LAMP = 'GMS_o-wall_lamp';
     case WALLET = 'GMS_o-wallet';
@@ -3908,6 +4004,7 @@ enum GMS_o: string
     case WATCH_ALERT = 'GMS_o-watch_alert';
     case WATCH_ARROW = 'GMS_o-watch_arrow';
     case WATCH_ARROW_DOWN = 'GMS_o-watch_arrow_down';
+    case WATCH_BUTTON = 'GMS_o-watch_button';
     case WATCH_BUTTON_PRESS = 'GMS_o-watch_button_press';
     case WATCH_CHECK = 'GMS_o-watch_check';
     case WATCH_LOCK = 'GMS_o-watch_lock';
@@ -3921,6 +4018,7 @@ enum GMS_o: string
     case WATER_DAMAGE = 'GMS_o-water_damage';
     case WATER_DO = 'GMS_o-water_do';
     case WATER_DROP = 'GMS_o-water_drop';
+    case WATER_DROPS = 'GMS_o-water_drops';
     case WATER_EC = 'GMS_o-water_ec';
     case WATER_FULL = 'GMS_o-water_full';
     case WATER_HEATER = 'GMS_o-water_heater';
@@ -3941,6 +4039,7 @@ enum GMS_o: string
     case WB_SHADE = 'GMS_o-wb_shade';
     case WB_SUNNY = 'GMS_o-wb_sunny';
     case WB_TWILIGHT = 'GMS_o-wb_twilight';
+    case WB_TWILIGHT_2 = 'GMS_o-wb_twilight_2';
     case WC = 'GMS_o-wc';
     case WEATHER_HAIL = 'GMS_o-weather_hail';
     case WEATHER_MIX = 'GMS_o-weather_mix';
@@ -3979,6 +4078,7 @@ enum GMS_o: string
     case WIFI_CALLING_BAR_2 = 'GMS_o-wifi_calling_bar_2';
     case WIFI_CALLING_BAR_3 = 'GMS_o-wifi_calling_bar_3';
     case WIFI_CHANNEL = 'GMS_o-wifi_channel';
+    case WIFI_DEVICE = 'GMS_o-wifi_device';
     case WIFI_FIND = 'GMS_o-wifi_find';
     case WIFI_HOME = 'GMS_o-wifi_home';
     case WIFI_LOCK = 'GMS_o-wifi_lock';
@@ -4007,6 +4107,7 @@ enum GMS_o: string
     case WORK_HISTORY = 'GMS_o-work_history';
     case WORK_UPDATE = 'GMS_o-work_update';
     case WORKSPACE_PREMIUM = 'GMS_o-workspace_premium';
+    case WORKSPACE_STUDIO = 'GMS_o-workspace_studio';
     case WORKSPACES = 'GMS_o-workspaces';
     case WORKSPACES_OUTLINE = 'GMS_o-workspaces_outline';
     case WOUNDS_INJURIES = 'GMS_o-wounds_injuries';
@@ -4021,7 +4122,9 @@ enum GMS_o: string
     case YOSHOKU = 'GMS_o-yoshoku';
     case YOUR_TRIPS = 'GMS_o-your_trips';
     case YOUTUBE_ACTIVITY = 'GMS_o-youtube_activity';
+    case YOUTUBE_ACTIVITY_2 = 'GMS_o-youtube_activity_2';
     case YOUTUBE_SEARCHED_FOR = 'GMS_o-youtube_searched_for';
+    case YOUTUBE_VIDEO = 'GMS_o-youtube_video';
     case ZONE_PERSON_ALERT = 'GMS_o-zone_person_alert';
     case ZONE_PERSON_IDLE = 'GMS_o-zone_person_idle';
     case ZONE_PERSON_URGENT = 'GMS_o-zone_person_urgent';
